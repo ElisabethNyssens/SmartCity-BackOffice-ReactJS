@@ -1,0 +1,290 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  width: 100%;
+}
+
+h2 {
+  font-size: 40px;
+  color: #5a5ad8;
+  font-weight: 500;
+  text-align: center;
+  display: flex;
+}
+
+h5 {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.btn-square {
+  margin-top: 0px;
+}
+
+.btnModal {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cursor-pointer {
+  justify-content: center;
+}
+
+.label-text {
+  justify-content: flex-start;
+  margin-left: 5px;
+}
+
+.identification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  width: 50%;
+}
+
+.menuFixed {
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0px;
+  padding-top: 80px;
+}
+
+.menu {
+  display: block;
+}
+
+.w-56 {
+  height: 100%;
+}
+
+hr {
+  color: black;
+  border-top-width: 2px;
+}
+
+.position {
+  position: fixed;
+  top: 80px;
+  left: 224px;
+  padding: 30px;
+  width: calc(100% - 224px);
+  height: calc(100vh - 80px);
+}
+
+.stats {
+  margin-top: 40px;
+  max-width: 100%;
+}
+
+#imgLogo {
+  width: 27%;
+  height: 27%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+#imgPenWhite {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#imgPenDark,
+#poubelle,
+#plus {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#imgLoupe {
+  position: absolute;
+  bottom: 10px;
+  left: 180px;
+  width: 15px;
+  height: 15px;
+}
+
+#plus {
+  padding: 10px 5px 0px 0px;
+  margin-left: 0px;
+}
+
+#whiteLine {
+  color: white;
+  padding: 5px 5px 0px 0px;
+}
+
+.artboard.phone-1.artboard-horizontal {
+  width: 300px;
+  height: 150px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+thead {
+  font-weight: bold;
+  font-size: large;
+}
+
+th {
+  font-size: small;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.taille {
+  height: 50%;
+}
+
+.table {
+  margin-top: 5px;
+}
+
+.hauteur {
+  height: 350px;
+}
+
+.tableDyna {
+  table-layout: auto;
+  width: 1300px;
+}
+
+.table :where(th, td) {
+  padding: 4px;
+  border-radius: 0%;
+  border: 2px solid gray;
+  white-space: normal;
+}
+
+.positionTables {
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  top: 180px;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  flex: 1;
+  justify-content: flex-start;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  top: 10px;
+}
+
+.input,
+.textarea {
+  margin: 0px;
+  padding-left: 10px;
+  width: 100%;
+  color: mediumslateblue;
+}
+
+.containerIcon {
+  position: relative;
+  justify-content: flex-start;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.containerAjout {
+  position: fixed;
+  justify-content: flex-end;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  top: 350px;
+  left: 300px;
+}
+
+.containerAjoutAd {
+  position: relative;
+  justify-content: flex-start;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.overflow-x-auto {
+  margin-top: 20px;
+  height: calc(100% - 200px);
+}
+
+.containerBtn {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: 1 2;
+  padding: 0;
+  margin: 0;
+}
+
+.modal-action {
+  margin: 0px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerForm {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  height: 50%;
+  width: 100%;
+}
+
+.form-control {
+  width: 75%;
+}
+
+#inputSearch {
+  color: black;
+}
+
+.btn-profil {
+  margin-top: 0;
+}
+
+.table th:first-child {
+  position: inherit;
+}
